@@ -6,7 +6,7 @@ pipeline {
     }
     environment {
         // SERVER_DEV_SFE_CREDENTIAL = credentials('server.sfe.credential')
-        PATH_BACKEND_API_WS = "${WORKSPACE}/upb/upb/"
+        PATH_BACKEND_API_WS = "${WORKSPACE}/TestingJenkins"
     }
     stages {
         stage('Descargando de repositorio.') {
